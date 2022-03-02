@@ -16,7 +16,7 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Obtain a Telegram bot token by contacting @BotFather",
-            "required": true
+            "required": false
         },
         "API_ID": {
             "description": "API_ID of your Telegram Account my.telegram.org/apps",
@@ -48,12 +48,12 @@
         },
         "MONGO_URL": {
             "description": "Get From Here. https://telegra.ph/How-To-get-Mongodb-URI-04-06",
-            "required": true
+            "required": false
         },
         "ARQ_API_URL": {
             "description": "For Music Downloading And Many More Things... Don't change this value",
             "value": "https://thearq.tech",
-            "required": true
+            "required": false
         },
         "MESSAGE_DUMP_CHAT": {
             "description": "Chat_id of the group where useless things will go",
@@ -61,7 +61,7 @@
         },
         "ARQ_API_KEY": {
             "description": "Get this from @ARQRobot.",
-            "required": true
+            "required": false
         },
         "LOG_MENTIONS": {
             "description": "Fill 1 to turn this on, or 0 to turn it off.",
